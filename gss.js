@@ -124,8 +124,8 @@ const isCommand = isAsu ? body.replace(pric, '').trim().split(/ +/).shift().toLo
         const qmsg = (quoted.msg || quoted)
         const isMedia = /image|video|sticker|audio/.test(mime)
 const isViewOnce = ["viewOnceMessageV2","viewOnceMessage"].includes(m.type)
-	const botname = "𝐆𝐒𝐒_𝚩𝚯𝚻𝐖𝚫";
-	const devlopernumber = "917050906659";
+	const botname = "ᴍɪʏᴜ ʙᴏᴛ";
+	const devlopernumber = "0164669813";
         // Group
         const groupMetadata = m.isGroup ? await gss.groupMetadata(m.chat).catch(e => {}) : ''
         const groupName = m.isGroup ? groupMetadata.subject : ''
@@ -530,7 +530,7 @@ async function setBio() {
                 second: '2-digit'
             };
             const timeString = moment(date).tz('Asia/Kolkata').format('MM/DD/YYYY ⌚ hh:mm:ss A');
-            const status = `📆 ${timeString} gssbotwa ⚡`;
+            const status = `📆 ${timeString} ᴍɪʏᴜ ʙᴏᴛ ⚡`;
             await gss.updateProfileStatus(status).catch(_ => _);
         }
     }, 60000);
@@ -542,11 +542,11 @@ setBio();
 if (command) {
             
 if (!m.isGroup && !isCreator && global.onlygroup) {
-    return m.reply("Hello, because we want to reduce spam, please use the bot in a group!\n\nIf there are joint interests, please type .owner to contact the owner.")
+    return m.reply("Hello, because we want to reduce spam, please use the bot in a group bitch!\n\nIf there are joint interests, please type .owner to contact the owner.")
 }
 // Private Only
 if (!isCreator && global.onlypc && m.isGroup) {
-    return m.reply("Hello, if you want to use this bot, please chat privately with the bot.")
+    return m.reply("Hello, if you want to use this bot, please chat privately with the bot you gay!.")
 }
 
 
@@ -559,7 +559,7 @@ if (!isCreator && global.onlypc && m.isGroup) {
 
 if (global.autoRecord) {
     if (m.chat) {
-        gss.sendPresenceUpdate("recording", m.chat);
+        gss.sendPresenceUpdate("were recording retard", m.chat);
     }
 }
 
@@ -593,19 +593,19 @@ const currentTime = moment().tz('Asia/Kolkata').format('HH:mm:ss');
 let time; 
 
 if (currentTime < "23:59:00") {
-    var greetingTime = 'Good Night 🏙️';
+    var greetingTime = 'Good Night pedo 🏙️';
 }
 if (currentTime < "19:00:00") {
-    var greetingTime = 'Good Evening 🌆';
+    var greetingTime = 'Good Evening gay 🌆';
 }
 if (currentTime < "18:00:00") {
-    var greetingTime = 'Good Afternoon 🌇';
+    var greetingTime = 'Good Afternoon criminal 🌇';
 }
 if (currentTime < "15:00:00") {
-    var greetingTime = 'Good Day 🌤️';
+    var greetingTime = 'Good Day for us 🌤️';
 }
 if (currentTime < "10:00:00") {
-    var greetingTime = 'Good Morning 🌄';
+    var greetingTime = 'Good Morning for your mental 🌄';
 }
 if (currentTime < "05:00:00") {
     var greetingTime = 'Good Dawn 🌆';
@@ -619,7 +619,7 @@ if (currentTime < "03:00:00") {
 if (antiToxic) {
     if (Badgss.includes(messagesD)) {
         if (m.text) {
-            const bvl = `\`\`\`「 Bad Word Detected 」\`\`\`\n\nYou are using a bad word, but as an admin/owner, you won't be kicked 😇`;
+            const bvl = `\`\`\`「 Bad Word Detected 」\`\`\`\n\nYou are using a bad word, but as an admin/owner, you won't be kicked BITCH, RETARD`;
             
             if (isAdmins || m.key.fromMe || isCreator) {
                 return m.reply(bvl);
@@ -785,7 +785,7 @@ if (akinator.hasOwnProperty(m.sender.split('@')[0]) && isCmd && ["0", "1", "2", 
 	    }
 	    if (!isSurrender && 1 > (ok = room.game.turn(m.sender === room.game.playerO, parseInt(m.text) - 1))) {
 	    m.reply({
-	'-3': 'Game is over', 
+	'-3': 'Game is over retard', 
 	'-2': 'Invalid', 
 	'-1': 'Invalid Position',
 	 0: 'Invalid Position',
@@ -896,11 +896,11 @@ const menuText = `*🔢 TYPE BELOW NUMBER*
 9. ᴍᴀɪɴᴍᴇɴᴜ`;
 
 const menuMessage = `
-👨‍💻 GSSBOTWA - ＭＤ - Ｖ2 👨‍💻
+👨‍💻 ᴍɪʏᴜ ʙᴏᴛ - ＭＤ - Ｖ2 👨‍💻
 ╭─────────────·
 │📍 ᴠᴇʀꜱɪᴏɴ: ᴠ2
-│👨‍💻 ᴏᴡɴᴇʀ : ᴇᴛʜɪx xsɪᴅ      
-│👤 ɴᴜᴍʙᴇʀ: 917050906659
+│👨‍💻 ᴏᴡɴᴇʀ : iwandino      
+│👤 ɴᴜᴍʙᴇʀ: 0164669813
 ╰─────────────
 
 ╭───═❮ *ᴍᴇɴᴜ ʟɪsᴛ* ❯═───❖
@@ -925,7 +925,7 @@ const lowerText = m.text.toLowerCase();
 
 if (command === 'menu2') {
         await gss.sendMessage(m.chat, {
-            image: { url: 'https://telegra.ph/file/61eec5ebaeef2a046a914.jpg' },
+            image: { url: 'https://telegra.ph/file/742771ab2b04c224153b0.jpg' },
             caption: menuMessage,
             contextInfo: {
                 externalAdReply: {
@@ -945,7 +945,7 @@ if (command === 'menu2') {
 
             if (subMenu !== undefined) {
                 await gss.sendMessage(m.chat, {
-                    image: { url: 'https://telegra.ph/file/61eec5ebaeef2a046a914.jpg' },
+                    image: { url: 'https://telegra.ph/file/742771ab2b04c224153b0.jpg' },
                     caption: subMenu,
                     contextInfo: {
                         externalAdReply: {
@@ -1204,7 +1204,7 @@ case 'demote': {
 break;
 
 
- case 'welcome':
+ case 'welcome human':
             case 'left': {
               if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
@@ -1277,7 +1277,7 @@ break;
 case 'toqr': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-                if (!q) return m.reply(' Please include link or text!')
+                if (!q) return m.reply(' Please include link or text stupid!')
                 const QrCode = require('qrcode-reader')
                 const qrcode = require('qrcode')
                 let qyuer = await qrcode.toDataURL(q, {
@@ -1663,7 +1663,7 @@ case "score":
     const result = await response.json();
 
     let formattedResult = `╭══════════════•∞•══╮\n`;
-    formattedResult += `│⿻   *GSS BOTWA 😎 🔥*\n`;
+    formattedResult += `│⿻   *ᴍɪʏᴜ ʙᴏᴛ 😎 🔥*\n`;
     formattedResult += `│⿻   *LIVE MATCH INFO* ✨\n`;
     formattedResult += `│⿻\n`;
 
@@ -1726,7 +1726,7 @@ case 'ban': {
   }
 
   banUser.push(orgnye);
-  return m.reply(`Successfully banned the user.`);
+  return m.reply(`Successfully banned the user haha retard.`);
   break;
 }
 
@@ -1744,7 +1744,7 @@ case 'unban': {
 
     let delbans = banUser.indexOf(orgnye);
     banUser.splice(delbans, 1);
-    return m.reply(`Successfully Unbanned the user.`);
+    return m.reply(`Successfully Unbanned the user poor user.`);
   }
 
   return m.reply("Invalid option. Reply to a message to ban/unban the user.");
@@ -1840,7 +1840,7 @@ case 'setstatus': case 'setbiobot': case 'setbotbio': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
   if (!isCreator) throw mess.owner;
-  if (!text) throw `This is a WhatsApp Bot named gss botwa`;
+  if (!text) throw `This is a WhatsApp Bot named ᴍɪʏᴜ ʙᴏᴛ`;
   let name = await gss.updateProfileStatus(text);
   m.reply(`Successfully changed bot bio status to ${name}`);
 }
@@ -1879,7 +1879,7 @@ case 'delete':
 case 'del': 
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-  if (!isCreator) return m.reply('Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ᴏᴡɴᴇʀ')
+  if (!isCreator) return m.reply('Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ᴏᴡɴᴇʀ bitch')
     
         if (!m.quoted) return m.reply('Pʟᴇᴀsᴇ ᴍᴇɴᴛɪᴏɴ ᴀ ᴍᴇssᴀɢᴇ');
         let { chat, id } = m.quoted;
@@ -2373,7 +2373,7 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴍɪʏᴜ ʙᴏᴛ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2416,7 +2416,7 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴍɪʏᴜ ʙᴏᴛ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2478,7 +2478,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴍɪʏᴜ ʙᴏᴛ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2521,7 +2521,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴍɪʏᴜ ʙᴏᴛ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2588,7 +2588,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴍɪʏᴜ ʙᴏᴛ*
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2637,7 +2637,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴍɪʏᴜ ʙᴏᴛ*
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2706,7 +2706,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴍɪʏᴜ ʙᴏᴛ*
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2755,7 +2755,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴍɪʏᴜ ʙᴏᴛ*
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2872,7 +2872,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const pollMessage = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴍɪʏᴜ ʙᴏᴛ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -2949,7 +2949,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴍɪʏᴜ ʙᴏᴛ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3027,7 +3027,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴍɪʏᴜ ʙᴏᴛ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3110,7 +3110,7 @@ case '𝐕𝐢𝐝𝐞𝐨': {
 
 const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴍɪʏᴜ ʙᴏᴛ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -4004,7 +4004,7 @@ case 'buypremium':
                             showAdAttribution: false,
                             title: 'BUY PREMIUM',
                             body: `15k / MONTH`,
-                            thumbnailUrl: 'https://telegra.ph/file/0955010ca2f8bf045fb0a.jpg',
+                            thumbnailUrl: 'https://telegra.ph/file/742771ab2b04c224153b0.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: false
@@ -4046,9 +4046,9 @@ case 'fb': case 'fbdl': case 'facebook': {
 
     const urlRegex = /^(?:https?:\/\/)?(?:www\.)?(?:facebook\.com|fb\.watch)\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/i;
     if (!urlRegex.test(args[0])) {
-        throw '⚠️ PLEASE GIVE A VALID URL.';
+        throw '⚠️ PLEASE GIVE A VALID URL BITCH!!.';
     }
-     await m.reply(`Please wait...`);
+     await m.reply(`Please wait...reatard`);
     try {
         const result = await fg.fbdl(args[0]);
         const tex = `
@@ -5634,7 +5634,7 @@ case 'allmenu': {
     await doReact("📁");
     let a = db.data.users[m.sender];
     let introText = `
-╭──═❮ *GssBotwa* ❯═─┈•
+╭──═❮ *ᴍɪʏᴜ ʙᴏᴛ* ❯═─┈•
 │ Hi *${pushname}* 👋  
 ╰–❖ *${greetingTime}* 😄 
 
