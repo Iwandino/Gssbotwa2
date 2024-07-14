@@ -3,8 +3,8 @@ const chalk = require('chalk');
 
 
 // Other
-global.link = 'https://whatsapp.com/channel/0029VaWJMi3GehEE9e1YsI1S'
-global.linkGroup = 'https://chat.whatsapp.com/E3PWxdvLc7ZCp1ExOCkEGp'
+global.link = 'https://https://whatsapp.com/channel/0029VajUvHu8PgsPaLHsml11'
+global.linkGroup = 'https://chat.whatsapp.com/GRWkaQmzVVjLdTjagqcf8F'
 
 global.apikey = 'bf2d2cf29b3edc604b447983';
 global.ownername = "iwandino";
@@ -13,7 +13,7 @@ global.premium = ['0164669813'];
 global.packname = "𝚜𝚝𝚒𝚌𝚔𝚎𝚛 𝚋𝚢";
 global.author = "iwandino";
 global.sessionName = 'session';
-global.prefa = [".", "!", "/", "?"];
+global.prefa = ["."];
 global.typemenu = "v2"
 global.menuType = "2"
 global.autoswview = true
@@ -29,11 +29,11 @@ global.autoBlock = true
  
 /*REPLY MESSAGE*/
 global.mess = {
-    banned: '`You are *Banned* fron using commands!`',
+    banned: '`You are *Banned* fron using commands bitch!`',
     bangc: '`This Group is *Banned* from using Commands!`',
-    success: '`✓ Success`',
-    admin: '`This feature is only for group admins`',
-    botAdmin: '`I am not an admin!`',
+    success: '`✓ Success gay!`',
+    admin: '`This feature is only for group admins you pedo`',
+    botAdmin: '`I am not an admin! you pedo`',
     owner: '`You are not my owner you gay`',
     group: '`You can use this command only in groups ❌`',
     private: '`Feature is used only for private chats!`',
