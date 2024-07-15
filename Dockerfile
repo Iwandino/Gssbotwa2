@@ -14,7 +14,7 @@ RUN npm install
 
 COPY . .
 
-CMD ["node", "."]
+CMD ["node", ","]
  
  
  
